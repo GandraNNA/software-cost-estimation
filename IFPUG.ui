@@ -1,0 +1,3444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>IFPUG</class>
+ <widget class="QMainWindow" name="IFPUG">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1650</width>
+    <height>745</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_16">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>581</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>FAV. Присвойте вес (от 0 до 5) каждой характеристике проекта:</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>70</y>
+      <width>221</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt; font-style:italic; color:#005500;&quot;&gt;Значения для данных характеристик определяются следующим образом:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt; font-style:italic; color:#005500;&quot;&gt;	0 — никогда; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt; font-style:italic; color:#005500;&quot;&gt;	1 — иногда; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt; font-style:italic; color:#005500;&quot;&gt;	2 — редко; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt; font-style:italic; color:#005500;&quot;&gt;	3 — средне; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt; font-style:italic; color:#005500;&quot;&gt;	4 — часто; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt; font-style:italic; color:#005500;&quot;&gt;	5 — всегда.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_40">
+    <property name="geometry">
+     <rect>
+      <x>1211</x>
+      <y>11</y>
+      <width>30</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Тип</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="type_1">
+    <property name="geometry">
+     <rect>
+      <x>1212</x>
+      <y>39</y>
+      <width>48</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>ILF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EIF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EI</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EO</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EQ</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="type_2">
+    <property name="geometry">
+     <rect>
+      <x>1212</x>
+      <y>67</y>
+      <width>48</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>ILF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EIF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EI</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EO</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EQ</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="type_3">
+    <property name="geometry">
+     <rect>
+      <x>1212</x>
+      <y>95</y>
+      <width>48</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>ILF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EIF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EI</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EO</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EQ</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="type_4">
+    <property name="geometry">
+     <rect>
+      <x>1212</x>
+      <y>123</y>
+      <width>48</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>ILF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EIF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EI</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EO</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EQ</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="type_5">
+    <property name="geometry">
+     <rect>
+      <x>1212</x>
+      <y>151</y>
+      <width>48</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>ILF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EIF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EI</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EO</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EQ</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="type_6">
+    <property name="geometry">
+     <rect>
+      <x>1212</x>
+      <y>179</y>
+      <width>48</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>ILF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EIF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EI</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EO</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EQ</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="type_7">
+    <property name="geometry">
+     <rect>
+      <x>1212</x>
+      <y>207</y>
+      <width>48</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>ILF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EIF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EI</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EO</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EQ</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="type_8">
+    <property name="geometry">
+     <rect>
+      <x>1212</x>
+      <y>235</y>
+      <width>48</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>ILF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EIF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EI</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EO</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EQ</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="type_9">
+    <property name="geometry">
+     <rect>
+      <x>1212</x>
+      <y>263</y>
+      <width>48</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>ILF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EIF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EI</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EO</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EQ</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="type_10">
+    <property name="geometry">
+     <rect>
+      <x>1212</x>
+      <y>291</y>
+      <width>48</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>ILF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EIF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EI</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EO</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EQ</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="type_11">
+    <property name="geometry">
+     <rect>
+      <x>1212</x>
+      <y>319</y>
+      <width>48</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>ILF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EIF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EI</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EO</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EQ</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="type_12">
+    <property name="geometry">
+     <rect>
+      <x>1212</x>
+      <y>347</y>
+      <width>48</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>ILF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EIF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EI</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EO</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EQ</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="type_13">
+    <property name="geometry">
+     <rect>
+      <x>1212</x>
+      <y>375</y>
+      <width>48</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>ILF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EIF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EI</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EO</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EQ</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="type_14">
+    <property name="geometry">
+     <rect>
+      <x>1212</x>
+      <y>403</y>
+      <width>48</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>ILF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EIF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EI</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EO</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EQ</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="type_15">
+    <property name="geometry">
+     <rect>
+      <x>1212</x>
+      <y>431</y>
+      <width>48</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>ILF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EIF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EI</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EO</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EQ</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="type_16">
+    <property name="geometry">
+     <rect>
+      <x>1212</x>
+      <y>459</y>
+      <width>48</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>ILF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EIF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EI</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EO</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EQ</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="type_17">
+    <property name="geometry">
+     <rect>
+      <x>1212</x>
+      <y>487</y>
+      <width>48</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>ILF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EIF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EI</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EO</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EQ</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="type_18">
+    <property name="geometry">
+     <rect>
+      <x>1212</x>
+      <y>515</y>
+      <width>48</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>ILF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EIF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EI</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EO</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EQ</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="type_19">
+    <property name="geometry">
+     <rect>
+      <x>1212</x>
+      <y>543</y>
+      <width>48</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>ILF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EIF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EI</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EO</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EQ</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="type_20">
+    <property name="geometry">
+     <rect>
+      <x>1212</x>
+      <y>571</y>
+      <width>48</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>ILF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EIF</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EI</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EO</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EQ</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_41">
+    <property name="geometry">
+     <rect>
+      <x>1269</x>
+      <y>11</y>
+      <width>67</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>21</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>    DET</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_42">
+    <property name="geometry">
+     <rect>
+      <x>1344</x>
+      <y>11</y>
+      <width>78</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>RET / FTR</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DET_1">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>39</y>
+      <width>65</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>22</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DET_2">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>67</y>
+      <width>65</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>22</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DET_3">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>95</y>
+      <width>65</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>22</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DET_4">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>123</y>
+      <width>65</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>22</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DET_5">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>151</y>
+      <width>65</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>22</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DET_6">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>179</y>
+      <width>65</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>22</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DET_7">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>207</y>
+      <width>65</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>22</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DET_8">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>235</y>
+      <width>65</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>22</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DET_9">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>263</y>
+      <width>65</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>22</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DET_10">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>291</y>
+      <width>65</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>22</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DET_11">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>319</y>
+      <width>65</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>22</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DET_12">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>347</y>
+      <width>65</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>22</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DET_13">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>375</y>
+      <width>65</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>22</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DET_14">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>403</y>
+      <width>65</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>22</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DET_15">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>431</y>
+      <width>65</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>22</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DET_16">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>459</y>
+      <width>65</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>22</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DET_17">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>487</y>
+      <width>65</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>22</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DET_18">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>515</y>
+      <width>65</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>22</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DET_19">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>543</y>
+      <width>65</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>22</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DET_20">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>571</y>
+      <width>65</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>22</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="RetFtr_1">
+    <property name="geometry">
+     <rect>
+      <x>1345</x>
+      <y>39</y>
+      <width>76</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>16777215</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="RetFtr_2">
+    <property name="geometry">
+     <rect>
+      <x>1345</x>
+      <y>67</y>
+      <width>76</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>16777215</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="RetFtr_3">
+    <property name="geometry">
+     <rect>
+      <x>1345</x>
+      <y>95</y>
+      <width>76</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>16777215</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="RetFtr_4">
+    <property name="geometry">
+     <rect>
+      <x>1345</x>
+      <y>123</y>
+      <width>76</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>16777215</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="RetFtr_5">
+    <property name="geometry">
+     <rect>
+      <x>1345</x>
+      <y>151</y>
+      <width>76</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>16777215</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="RetFtr_6">
+    <property name="geometry">
+     <rect>
+      <x>1345</x>
+      <y>179</y>
+      <width>76</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>16777215</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="RetFtr_7">
+    <property name="geometry">
+     <rect>
+      <x>1345</x>
+      <y>207</y>
+      <width>76</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>16777215</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="RetFtr_8">
+    <property name="geometry">
+     <rect>
+      <x>1345</x>
+      <y>235</y>
+      <width>76</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>16777215</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="RetFtr_9">
+    <property name="geometry">
+     <rect>
+      <x>1345</x>
+      <y>263</y>
+      <width>76</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>16777215</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="RetFtr_10">
+    <property name="geometry">
+     <rect>
+      <x>1345</x>
+      <y>291</y>
+      <width>76</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>16777215</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="RetFtr_11">
+    <property name="geometry">
+     <rect>
+      <x>1345</x>
+      <y>319</y>
+      <width>76</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>16777215</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="RetFtr_12">
+    <property name="geometry">
+     <rect>
+      <x>1345</x>
+      <y>347</y>
+      <width>76</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>16777215</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="RetFtr_13">
+    <property name="geometry">
+     <rect>
+      <x>1345</x>
+      <y>375</y>
+      <width>76</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>16777215</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="RetFtr_14">
+    <property name="geometry">
+     <rect>
+      <x>1345</x>
+      <y>403</y>
+      <width>76</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>16777215</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="RetFtr_15">
+    <property name="geometry">
+     <rect>
+      <x>1345</x>
+      <y>431</y>
+      <width>76</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>16777215</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="RetFtr_16">
+    <property name="geometry">
+     <rect>
+      <x>1345</x>
+      <y>459</y>
+      <width>76</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>16777215</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="RetFtr_17">
+    <property name="geometry">
+     <rect>
+      <x>1345</x>
+      <y>487</y>
+      <width>76</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>16777215</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="RetFtr_18">
+    <property name="geometry">
+     <rect>
+      <x>1345</x>
+      <y>515</y>
+      <width>76</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>16777215</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="RetFtr_19">
+    <property name="geometry">
+     <rect>
+      <x>1345</x>
+      <y>543</y>
+      <width>76</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>16777215</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="RetFtr_20">
+    <property name="geometry">
+     <rect>
+      <x>1345</x>
+      <y>571</y>
+      <width>76</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>90</width>
+      <height>16777215</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_43">
+    <property name="geometry">
+     <rect>
+      <x>1431</x>
+      <y>12</y>
+      <width>103</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string> Сложность</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="complexity_1">
+    <property name="geometry">
+     <rect>
+      <x>1431</x>
+      <y>39</y>
+      <width>109</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="complexity_2">
+    <property name="geometry">
+     <rect>
+      <x>1431</x>
+      <y>67</y>
+      <width>109</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="complexity_3">
+    <property name="geometry">
+     <rect>
+      <x>1431</x>
+      <y>95</y>
+      <width>109</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="complexity_4">
+    <property name="geometry">
+     <rect>
+      <x>1431</x>
+      <y>123</y>
+      <width>109</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="complexity_5">
+    <property name="geometry">
+     <rect>
+      <x>1431</x>
+      <y>151</y>
+      <width>109</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="complexity_6">
+    <property name="geometry">
+     <rect>
+      <x>1431</x>
+      <y>179</y>
+      <width>109</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="complexity_7">
+    <property name="geometry">
+     <rect>
+      <x>1431</x>
+      <y>207</y>
+      <width>109</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="complexity_8">
+    <property name="geometry">
+     <rect>
+      <x>1431</x>
+      <y>235</y>
+      <width>109</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="complexity_9">
+    <property name="geometry">
+     <rect>
+      <x>1431</x>
+      <y>263</y>
+      <width>109</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="complexity_10">
+    <property name="geometry">
+     <rect>
+      <x>1431</x>
+      <y>291</y>
+      <width>109</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="complexity_11">
+    <property name="geometry">
+     <rect>
+      <x>1431</x>
+      <y>319</y>
+      <width>109</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="complexity_12">
+    <property name="geometry">
+     <rect>
+      <x>1431</x>
+      <y>347</y>
+      <width>109</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="complexity_13">
+    <property name="geometry">
+     <rect>
+      <x>1431</x>
+      <y>375</y>
+      <width>109</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="complexity_14">
+    <property name="geometry">
+     <rect>
+      <x>1431</x>
+      <y>403</y>
+      <width>109</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="complexity_15">
+    <property name="geometry">
+     <rect>
+      <x>1431</x>
+      <y>431</y>
+      <width>109</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="complexity_16">
+    <property name="geometry">
+     <rect>
+      <x>1431</x>
+      <y>459</y>
+      <width>109</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="complexity_17">
+    <property name="geometry">
+     <rect>
+      <x>1431</x>
+      <y>487</y>
+      <width>109</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="complexity_18">
+    <property name="geometry">
+     <rect>
+      <x>1431</x>
+      <y>515</y>
+      <width>109</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="complexity_19">
+    <property name="geometry">
+     <rect>
+      <x>1431</x>
+      <y>543</y>
+      <width>109</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="complexity_20">
+    <property name="geometry">
+     <rect>
+      <x>1431</x>
+      <y>571</y>
+      <width>109</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_44">
+    <property name="geometry">
+     <rect>
+      <x>1549</x>
+      <y>12</y>
+      <width>60</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>    FP</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="FP_1">
+    <property name="geometry">
+     <rect>
+      <x>1550</x>
+      <y>40</y>
+      <width>60</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="FP_2">
+    <property name="geometry">
+     <rect>
+      <x>1550</x>
+      <y>68</y>
+      <width>60</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="FP_3">
+    <property name="geometry">
+     <rect>
+      <x>1550</x>
+      <y>96</y>
+      <width>60</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="FP_4">
+    <property name="geometry">
+     <rect>
+      <x>1550</x>
+      <y>124</y>
+      <width>60</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="FP_5">
+    <property name="geometry">
+     <rect>
+      <x>1550</x>
+      <y>152</y>
+      <width>60</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="FP_6">
+    <property name="geometry">
+     <rect>
+      <x>1550</x>
+      <y>180</y>
+      <width>60</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="FP_7">
+    <property name="geometry">
+     <rect>
+      <x>1550</x>
+      <y>208</y>
+      <width>60</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="FP_8">
+    <property name="geometry">
+     <rect>
+      <x>1550</x>
+      <y>236</y>
+      <width>60</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="FP_9">
+    <property name="geometry">
+     <rect>
+      <x>1550</x>
+      <y>264</y>
+      <width>60</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="FP_10">
+    <property name="geometry">
+     <rect>
+      <x>1550</x>
+      <y>292</y>
+      <width>60</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="FP_11">
+    <property name="geometry">
+     <rect>
+      <x>1550</x>
+      <y>320</y>
+      <width>60</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="FP_12">
+    <property name="geometry">
+     <rect>
+      <x>1550</x>
+      <y>348</y>
+      <width>60</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="FP_13">
+    <property name="geometry">
+     <rect>
+      <x>1550</x>
+      <y>376</y>
+      <width>60</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="FP_14">
+    <property name="geometry">
+     <rect>
+      <x>1550</x>
+      <y>404</y>
+      <width>60</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="FP_15">
+    <property name="geometry">
+     <rect>
+      <x>1550</x>
+      <y>432</y>
+      <width>60</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="FP_16">
+    <property name="geometry">
+     <rect>
+      <x>1550</x>
+      <y>460</y>
+      <width>60</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="FP_17">
+    <property name="geometry">
+     <rect>
+      <x>1550</x>
+      <y>488</y>
+      <width>60</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="FP_18">
+    <property name="geometry">
+     <rect>
+      <x>1550</x>
+      <y>516</y>
+      <width>60</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="FP_19">
+    <property name="geometry">
+     <rect>
+      <x>1550</x>
+      <y>544</y>
+      <width>60</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="FP_20">
+    <property name="geometry">
+     <rect>
+      <x>1550</x>
+      <y>572</y>
+      <width>60</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>621</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Рассчитать</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser_2">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>470</y>
+      <width>281</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic; color:#00007f;&quot;&gt;AFP:   Adjusted Function Point&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic; color:#00007f;&quot;&gt;UFP:   Unadjusted Function Point&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic; color:#00007f;&quot;&gt;VAF:  Value Added Factor&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic; color:#00007f;&quot;&gt;DET:  Data Element Type&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic; color:#00007f;&quot;&gt;RET:  Record Element Type&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic; color:#00007f;&quot;&gt;FTR:   File Types Resferenced&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic; color:#00007f;&quot;&gt;ILF:    Internal Interface Files&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic; color:#00007f;&quot;&gt;EI:     External Inputs&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic; color:#00007f;&quot;&gt;EO:    External Outputs&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic; color:#00007f;&quot;&gt;EQ:    External Inquiry&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>61</y>
+      <width>431</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>1. Требуется ли резервное копирование данных?</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="DI_1">
+       <item>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>5</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>89</y>
+      <width>285</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>2. Требуется обмен данными? </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="DI_2">
+       <item>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>5</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>117</y>
+      <width>423</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>3. Используются распределенные вычисления? </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="DI_3">
+       <item>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>5</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>145</y>
+      <width>318</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <widget class="QLabel" name="label_5">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>4. Важна ли производительность? </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="DI_4">
+       <item>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>5</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>173</y>
+      <width>575</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_5">
+     <item>
+      <widget class="QLabel" name="label_6">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>5. Программа выполняется на сильно загруженном оборудовании? </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="DI_5">
+       <item>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>5</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>201</y>
+      <width>394</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_6">
+     <item>
+      <widget class="QLabel" name="label_7">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>6. Требуется ли оперативный ввод данных? </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="DI_6">
+       <item>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>5</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>229</y>
+      <width>426</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_7">
+     <item>
+      <widget class="QLabel" name="label_8">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>7. Используется много форм для ввода данных? </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="DI_7">
+       <item>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>5</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>257</y>
+      <width>425</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_8">
+     <item>
+      <widget class="QLabel" name="label_9">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>8. Поля базы данных обновляются оперативно? </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="DI_8">
+       <item>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>5</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>285</y>
+      <width>412</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_9">
+     <item>
+      <widget class="QLabel" name="label_10">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>9. Ввод, вывод, запросы являются сложными? </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="DI_9">
+       <item>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>5</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>313</y>
+      <width>344</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_10">
+     <item>
+      <widget class="QLabel" name="label_11">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>10. Внутренние вычисления сложны? </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="DI_10">
+       <item>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>5</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>341</y>
+      <width>480</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_11">
+     <item>
+      <widget class="QLabel" name="label_12">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>11. Код предназначен для повторного использования? </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="DI_11">
+       <item>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>5</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>369</y>
+      <width>551</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_12">
+     <item>
+      <widget class="QLabel" name="label_13">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>12. Требуется преобразование данных и установка программы? </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="DI_12">
+       <item>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>5</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>397</y>
+      <width>515</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_13">
+     <item>
+      <widget class="QLabel" name="label_14">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>13. Требуется много установок в различных организациях? </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="DI_13">
+       <item>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>5</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>425</y>
+      <width>688</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_14">
+     <item>
+      <widget class="QLabel" name="label_15">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>14. Требуется поддерживать возможность настройки и простоту использования? </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="DI_14">
+       <item>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>5</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>1040</x>
+      <y>650</y>
+      <width>202</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_16">
+     <item>
+      <widget class="QLabel" name="label_46">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>AFP = </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="AFP"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>1040</x>
+      <y>610</y>
+      <width>203</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_17">
+     <item>
+      <widget class="QLabel" name="label_45">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>UFP = </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="UFP"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>833</x>
+      <y>13</y>
+      <width>172</width>
+      <height>585</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_15">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_37">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>№</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_17">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>1.</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_18">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>2.</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_19">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>3.</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_20">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>4.</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_21">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>5.</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_22">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>6.</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_23">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>7.</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_24">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>8.</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_25">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>9.</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_26">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>10.</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_27">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>11.</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_28">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>12.</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_29">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>13.</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_30">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>14.</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_31">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>15.</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_32">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>16.</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_33">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>17.</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_34">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>18.</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_35">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>19.</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_36">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>20.</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="label_38">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>       Модуль</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="module_1">
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="module_2">
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="module_3">
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="module_4">
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="module_5">
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="module_6">
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="module_7">
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="module_8">
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="module_9">
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="module_10">
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="module_11">
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="module_12">
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="module_13">
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="module_14">
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="module_15">
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="module_16">
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="module_17">
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="module_18">
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="module_19">
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="module_20">
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>1019</x>
+      <y>11</y>
+      <width>181</width>
+      <height>583</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QLabel" name="label_39">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>    Имя функции</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="funcName"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="funcName_2"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="funcName_3"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="funcName_4"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="funcName_5"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="funcName_6"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="funcName_7"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="funcName_8"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="funcName_9"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="funcName_10"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="funcName_11"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="funcName_12"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="funcName_13"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="funcName_14"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="funcName_15"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="funcName_16"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="funcName_17"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="funcName_18"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="funcName_19"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="funcName_20"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>470</y>
+      <width>318</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_18">
+     <item>
+      <widget class="QLabel" name="label_47">
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Сумма характеристик:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="TDI"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser_3">
+    <property name="geometry">
+     <rect>
+      <x>1260</x>
+      <y>610</y>
+      <width>351</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Суммарное влияние процедуры выравнивания лежит в пределах +/- 35% относительно объема, расчитанного в UFP&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1650</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
