@@ -257,14 +257,14 @@ class MyWindow(QMainWindow):
                     if value is not None:
                         EAF *= value
             elif nameEM == 'RUSE:':
-                for k in range(0, 7):
+                for k in range(0, 5):
                     index = str(k + 1)
                     complexity = self.getText('EM_' + index, QComboBox)
                     value = getEmForRuseValue(complexity)
                     if value is not None:
                         EAF *= value
             elif nameEM == 'PDIF:':
-                for k in range(0, 7):
+                for k in range(0, 5):
                     index = str(k + 1)
                     complexity = self.getText('EM_' + index, QComboBox)
                     value = getEmForPdifValue(complexity)
@@ -285,7 +285,7 @@ class MyWindow(QMainWindow):
                     if value is not None:
                         EAF *= value
             elif nameEM == 'SCED:':
-                for k in range(0, 7):
+                for k in range(0, 5):
                     index = str(k + 1)
                     complexity = self.getText('EM_' + index, QComboBox)
                     value = getEmForScedValue(complexity)

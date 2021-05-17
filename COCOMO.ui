@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1163</width>
-    <height>852</height>
+    <height>713</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -642,16 +642,6 @@ p, li { white-space: pre-wrap; }
         <widget class="QComboBox" name="EM_3">
          <item>
           <property name="text">
-           <string>Extra Low</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Very Low</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
            <string>Low</string>
           </property>
          </item>
@@ -679,16 +669,6 @@ p, li { white-space: pre-wrap; }
        </item>
        <item>
         <widget class="QComboBox" name="EM_4">
-         <item>
-          <property name="text">
-           <string>Extra Low</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Very Low</string>
-          </property>
-         </item>
          <item>
           <property name="text">
            <string>Low</string>
@@ -798,11 +778,6 @@ p, li { white-space: pre-wrap; }
         <widget class="QComboBox" name="EM_7">
          <item>
           <property name="text">
-           <string>Extra Low</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
            <string>Very Low</string>
           </property>
          </item>
@@ -824,11 +799,6 @@ p, li { white-space: pre-wrap; }
          <item>
           <property name="text">
            <string>Very High</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Extra High</string>
           </property>
          </item>
         </widget>
@@ -903,7 +873,7 @@ p, li { white-space: pre-wrap; }
           </font>
          </property>
          <property name="text">
-          <string>( )</string>
+          <string>(мес)</string>
          </property>
         </widget>
        </item>
