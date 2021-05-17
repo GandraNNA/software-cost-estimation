@@ -1,1 +1,1 @@
-# software-cost-estimation
+Оценка трудомкости проекта тремя методами: PERT, IFPUG, COCOMO II
