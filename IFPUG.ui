@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1650</width>
-    <height>795</height>
+    <width>1669</width>
+    <height>889</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -3353,7 +3353,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>1260</x>
-      <y>660</y>
+      <y>720</y>
       <width>351</width>
       <height>71</height>
      </rect>
@@ -3366,7 +3366,7 @@ p, li { white-space: pre-wrap; }
 &lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Суммарное влияние процедуры выравнивания лежит в пределах +/- 35% относительно объема, расчитанного в UFP&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -3395,11 +3395,11 @@ p, li { white-space: pre-wrap; }
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>710</x>
-      <y>660</y>
+      <y>720</y>
       <width>534</width>
       <height>26</height>
      </rect>
@@ -3428,11 +3428,11 @@ p, li { white-space: pre-wrap; }
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>730</x>
-      <y>700</y>
+      <y>760</y>
       <width>513</width>
       <height>26</height>
      </rect>
@@ -3461,13 +3461,130 @@ p, li { white-space: pre-wrap; }
      </item>
     </layout>
    </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>670</y>
+      <width>731</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_22">
+     <item>
+      <widget class="QLabel" name="label_49">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Язык программирования</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="Language">
+       <item>
+        <property name="text">
+         <string>Assembler</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>C</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>C++</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>C#</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>JavaScript</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_50">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>, Оценка количества строк</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="EstimatingNumberOfLines">
+       <item>
+        <property name="text">
+         <string>Наиболее вероятная</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Оптимистичная</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Пессимистичная</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>1420</x>
+      <y>670</y>
+      <width>195</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_23">
+     <item>
+      <widget class="QLineEdit" name="NumberOfLines"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_51">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>строк</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1650</width>
+     <width>1669</width>
      <height>26</height>
     </rect>
    </property>

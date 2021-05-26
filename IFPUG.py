@@ -163,9 +163,55 @@ class IfpugWindow(QMainWindow):
                            self.getNumber('TDI'))
         fieldAFP.setText(format(AFP, '.3f'))
 
+
+        fieldNumberOfLines = self.findChild(QLineEdit, 'NumberOfLines')
+        NumberOfLines = self.calcNumOfLines(self.NumOfLines(), AFP)
+        fieldNumberOfLines.setText(format(NumberOfLines, '.3f'))
+
     def calcAPF(self, ufp, tdi):
         return ufp * ((tdi * 0.1) + 0.65)
 
+    def NumOfLines(self):
+        EstimatingNumberOfLines = None
+        if self.getText('Language', QComboBox) in ['Assembler']:
+            if self.getText('EstimatingNumberOfLines', QComboBox) in ['Наиболее вероятная']:
+                EstimatingNumberOfLines = 172
+            elif self.getText('EstimatingNumberOfLines', QComboBox) in ['Оптимистичная']:
+                EstimatingNumberOfLines = 86
+            elif self.getText('EstimatingNumberOfLines', QComboBox) in ['Пессимистичная']:
+                EstimatingNumberOfLines = 320
+        elif self.getText('Language', QComboBox) in ['C']:
+            if self.getText('EstimatingNumberOfLines', QComboBox) in ['Наиболее вероятная']:
+                EstimatingNumberOfLines = 148
+            elif self.getText('EstimatingNumberOfLines', QComboBox) in ['Оптимистичная']:
+                EstimatingNumberOfLines = 9
+            elif self.getText('EstimatingNumberOfLines', QComboBox) in ['Пессимистичная']:
+                EstimatingNumberOfLines = 704
+        if self.getText('Language', QComboBox) in ['C++']:
+            if self.getText('EstimatingNumberOfLines', QComboBox) in ['Наиболее вероятная']:
+                EstimatingNumberOfLines = 60
+            elif self.getText('EstimatingNumberOfLines', QComboBox) in ['Оптимистичная']:
+                EstimatingNumberOfLines = 29
+            elif self.getText('EstimatingNumberOfLines', QComboBox) in ['Пессимистичная']:
+                EstimatingNumberOfLines = 178
+        if self.getText('Language', QComboBox) in ['C#']:
+            if self.getText('EstimatingNumberOfLines', QComboBox) in ['Наиболее вероятная']:
+                EstimatingNumberOfLines = 59
+            elif self.getText('EstimatingNumberOfLines', QComboBox) in ['Оптимистичная']:
+                EstimatingNumberOfLines = 51
+            elif self.getText('EstimatingNumberOfLines', QComboBox) in ['Пессимистичная']:
+                EstimatingNumberOfLines = 66
+        if self.getText('Language', QComboBox) in ['JavaScript']:
+            if self.getText('EstimatingNumberOfLines', QComboBox) in ['Наиболее вероятная']:
+                EstimatingNumberOfLines = 56
+            elif self.getText('EstimatingNumberOfLines', QComboBox) in ['Оптимистичная']:
+                EstimatingNumberOfLines = 44
+            elif self.getText('EstimatingNumberOfLines', QComboBox) in ['Пессимистичная']:
+                EstimatingNumberOfLines = 65
+        return EstimatingNumberOfLines
+
+    def calcNumOfLines(self, afp, numberoflines):
+        return afp * numberoflines
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
