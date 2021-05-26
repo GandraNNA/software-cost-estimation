@@ -1,6 +1,6 @@
 import sys
 
-from PyQt5.QtWidgets import QApplication, QLineEdit, QMainWindow, QTableWidgetItem, QComboBox, QLabel
+from PyQt5.QtWidgets import QApplication, QLineEdit, QMainWindow, QComboBox, QLabel
 from PyQt5.uic import loadUi
 
 
@@ -219,6 +219,12 @@ class MyWindow(QMainWindow):
             return 0
 
     def maths(self):
+        value = self.getText('Name_project')
+        target = self.findChild(QLineEdit, 'Name_project_1')
+        target.setText(value)
+        target.adjustSize()
+
+
         fieldPM = self.findChild(QLineEdit, 'PM')
         SIZE = self.getNumber('SIZE', QLineEdit)
         EAF = self.EMi()
@@ -227,14 +233,14 @@ class MyWindow(QMainWindow):
         B = 0.91
         E = B + (0.01 * sumSF)
         PM = EAF * A * (SIZE)**E
-        fieldPM.setText(str(PM))
+        fieldPM.setText(format(PM, '.3f'))
 
         fieldTM = self.findChild(QLineEdit, 'TM')
         C = 3.67
         D = 0.28
         SCED = getEmForScedValue(self.getText('EM_7', QComboBox))
         TM = SCED * C * (PM)**(D + (0.2 *(E - B)))
-        fieldTM.setText(str(TM))
+        fieldTM.setText(format(TM, '.3f'))
 
 
     def EMi(self):

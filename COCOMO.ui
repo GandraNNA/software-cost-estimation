@@ -6,19 +6,19 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1163</width>
-    <height>713</height>
+    <width>801</width>
+    <height>939</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>COCOMO_II</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>20</y>
+      <x>20</x>
+      <y>90</y>
       <width>361</width>
       <height>16</height>
      </rect>
@@ -38,7 +38,7 @@
     <property name="geometry">
      <rect>
       <x>250</x>
-      <y>50</y>
+      <y>120</y>
       <width>421</width>
       <height>231</height>
      </rect>
@@ -59,7 +59,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>300</y>
+      <y>370</y>
       <width>411</width>
       <height>16</height>
      </rect>
@@ -79,7 +79,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>250</x>
-      <y>320</y>
+      <y>390</y>
       <width>531</width>
       <height>321</height>
      </rect>
@@ -102,7 +102,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>22</x>
-      <y>72</y>
+      <y>142</y>
       <width>212</width>
       <height>192</height>
      </rect>
@@ -424,7 +424,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>370</y>
+      <y>440</y>
       <width>118</width>
       <height>44</height>
      </rect>
@@ -464,7 +464,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>420</y>
+      <y>490</y>
       <width>201</width>
       <height>194</height>
      </rect>
@@ -810,8 +810,8 @@ p, li { white-space: pre-wrap; }
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>710</x>
-      <y>20</y>
+      <x>20</x>
+      <y>50</y>
       <width>421</width>
       <height>24</height>
      </rect>
@@ -839,9 +839,9 @@ p, li { white-space: pre-wrap; }
    <widget class="QWidget" name="layoutWidget_2">
     <property name="geometry">
      <rect>
-      <x>760</x>
-      <y>260</y>
-      <width>221</width>
+      <x>420</x>
+      <y>830</y>
+      <width>329</width>
       <height>53</height>
      </rect>
     </property>
@@ -884,10 +884,10 @@ p, li { white-space: pre-wrap; }
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>910</x>
-      <y>60</y>
-      <width>201</width>
-      <height>61</height>
+      <x>170</x>
+      <y>720</y>
+      <width>371</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
@@ -901,31 +901,11 @@ p, li { white-space: pre-wrap; }
      <string>рассчитать</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_4">
-    <property name="geometry">
-     <rect>
-      <x>760</x>
-      <y>140</y>
-      <width>131</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>РЕЗУЛЬТАТЫ:</string>
-    </property>
-   </widget>
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>761</x>
-      <y>181</y>
+      <x>31</x>
+      <y>831</y>
       <width>364</width>
       <height>53</height>
      </rect>
@@ -970,13 +950,75 @@ p, li { white-space: pre-wrap; }
      </item>
     </layout>
    </widget>
+   <widget class="QWidget" name="layoutWidget_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>501</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_20">
+     <item>
+      <widget class="QLabel" name="label_128">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Название проекта:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="Name_project"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>770</y>
+      <width>651</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_7">
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Результаты рассчётов проекта</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="Name_project_1">
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1163</width>
+     <width>801</width>
      <height>26</height>
     </rect>
    </property>

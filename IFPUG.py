@@ -1,6 +1,6 @@
 import sys
 
-from PyQt5.QtWidgets import QApplication, QLineEdit, QMainWindow, QTableWidgetItem, QComboBox
+from PyQt5.QtWidgets import QApplication, QLineEdit, QMainWindow, QComboBox
 from PyQt5.uic import loadUi
 
 class MyWindow(QMainWindow):
@@ -157,13 +157,12 @@ class MyWindow(QMainWindow):
         for i in range(0, 20):
             index_str = str(i + 1)
             UFP += self.getNumber('FP_' + index_str, QLineEdit)
-        fieldUFP.setText(str(UFP))
+        fieldUFP.setText(format(UFP, '.3f'))
 
         fieldAFP = self.findChild(QLineEdit, 'AFP')
-        AFP = 0        
         AFP = self.calcAPF(self.getNumber('UFP'),
                            self.getNumber('TDI'))
-        fieldAFP.setText(str(AFP))
+        fieldAFP.setText(format(AFP, '.3f'))
 
 
     def calcAPF(self, ufp, tdi):
