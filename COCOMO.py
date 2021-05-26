@@ -31,15 +31,16 @@ def getEmForPersValue(complexity):
         return 0.5
     return None
 
+
 def getEmForRcpxValue(complexity):
     if complexity == Complexity.EXTRA_LOW:
-        return  0.49
+        return 0.49
     if complexity == Complexity.VERY_LOW:
         return 0.6
     if complexity == Complexity.LOW:
         return 0.83
     if complexity == Complexity.NOMINAL:
-        return  1
+        return 1
     if complexity == Complexity.HIGH:
         return 1.33
     if complexity == Complexity.VERY_HIGH:
@@ -47,6 +48,7 @@ def getEmForRcpxValue(complexity):
     if complexity == Complexity.EXTRA_HIGH:
         return 2.72
     return None
+
 
 def getEmForRuseValue(complexity):
     if complexity == Complexity.LOW:
@@ -61,11 +63,12 @@ def getEmForRuseValue(complexity):
         return 1.24
     return None
 
+
 def getEmForPdifValue(complexity):
     if complexity == Complexity.LOW:
         return 0.87
     if complexity == Complexity.NOMINAL:
-        return  1
+        return 1
     if complexity == Complexity.HIGH:
         return 1.29
     if complexity == Complexity.VERY_HIGH:
@@ -74,15 +77,16 @@ def getEmForPdifValue(complexity):
         return 2.61
     return None
 
+
 def getEmForPrexValue(complexity):
     if complexity == Complexity.EXTRA_LOW:
-        return  1.59
+        return 1.59
     if complexity == Complexity.VERY_LOW:
         return 1.33
     if complexity == Complexity.LOW:
         return 1.22
     if complexity == Complexity.NOMINAL:
-        return  1
+        return 1
     if complexity == Complexity.HIGH:
         return 0.87
     if complexity == Complexity.VERY_HIGH:
@@ -91,15 +95,16 @@ def getEmForPrexValue(complexity):
         return 0.62
     return None
 
+
 def getEmForFcilValue(complexity):
     if complexity == Complexity.EXTRA_LOW:
-        return  1.43
+        return 1.43
     if complexity == Complexity.VERY_LOW:
         return 1.3
     if complexity == Complexity.LOW:
         return 1.1
     if complexity == Complexity.NOMINAL:
-        return  1
+        return 1
     if complexity == Complexity.HIGH:
         return 0.87
     if complexity == Complexity.VERY_HIGH:
@@ -107,6 +112,7 @@ def getEmForFcilValue(complexity):
     if complexity == Complexity.EXTRA_HIGH:
         return 0.62
     return None
+
 
 def getEmForScedValue(complexity):
     if complexity == Complexity.VERY_LOW:
@@ -120,6 +126,7 @@ def getEmForScedValue(complexity):
     if complexity == Complexity.VERY_HIGH:
         return 1
     return None
+
 
 def getEmForPrecValue(complexity):
     if complexity == Complexity.VERY_LOW:
@@ -136,6 +143,7 @@ def getEmForPrecValue(complexity):
         return 0
     return None
 
+
 def getEmForFlexValue(complexity):
     if complexity == Complexity.VERY_LOW:
         return 5.07
@@ -150,6 +158,7 @@ def getEmForFlexValue(complexity):
     if complexity == Complexity.EXTRA_HIGH:
         return 0
     return None
+
 
 def getEmForReslValue(complexity):
     if complexity == Complexity.VERY_LOW:
@@ -166,6 +175,7 @@ def getEmForReslValue(complexity):
         return 0
     return None
 
+
 def getEmForTeamValue(complexity):
     if complexity == Complexity.VERY_LOW:
         return 5.48
@@ -180,6 +190,7 @@ def getEmForTeamValue(complexity):
     if complexity == Complexity.EXTRA_HIGH:
         return 0
     return None
+
 
 def getEmForPmatValue(complexity):
     if complexity == Complexity.VERY_LOW:
@@ -196,9 +207,10 @@ def getEmForPmatValue(complexity):
         return 0
     return None
 
-class MyWindow(QMainWindow):
+
+class CocomoWindow(QMainWindow):
     def __init__(self):
-        super(MyWindow, self).__init__()
+        super(CocomoWindow, self).__init__()
         loadUi("COCOMO.ui", self)
         self.pushButton.clicked.connect(self.maths)
 
@@ -224,7 +236,6 @@ class MyWindow(QMainWindow):
         target.setText(value)
         target.adjustSize()
 
-
         fieldPM = self.findChild(QLineEdit, 'PM')
         SIZE = self.getNumber('SIZE', QLineEdit)
         EAF = self.EMi()
@@ -232,16 +243,15 @@ class MyWindow(QMainWindow):
         A = 2.94
         B = 0.91
         E = B + (0.01 * sumSF)
-        PM = EAF * A * (SIZE)**E
+        PM = EAF * A * (SIZE) ** E
         fieldPM.setText(format(PM, '.3f'))
 
         fieldTM = self.findChild(QLineEdit, 'TM')
         C = 3.67
         D = 0.28
         SCED = getEmForScedValue(self.getText('EM_7', QComboBox))
-        TM = SCED * C * (PM)**(D + (0.2 *(E - B)))
+        TM = SCED * C * (PM) ** (D + (0.2 * (E - B)))
         fieldTM.setText(format(TM, '.3f'))
-
 
     def EMi(self):
         EAF = 1
@@ -345,6 +355,6 @@ class MyWindow(QMainWindow):
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    appWindow = MyWindow()
+    appWindow = CocomoWindow()
     appWindow.show()
     sys.exit(app.exec())

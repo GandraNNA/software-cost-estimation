@@ -3,14 +3,15 @@ import sys
 from PyQt5.QtWidgets import QApplication, QLineEdit, QMainWindow, QComboBox
 from PyQt5.uic import loadUi
 
-class MyWindow(QMainWindow):
+
+class IfpugWindow(QMainWindow):
     def __init__(self):
-        super(MyWindow, self).__init__()
+        super(IfpugWindow, self).__init__()
         loadUi("IFPUG.ui", self)
         self.pushButton.clicked.connect(self.maths)
 
     def getText(self, object_name, object_class=QLineEdit):
-        #print(object_name)
+        # print(object_name)
         obj = self.findChild(object_class, object_name)
         if object_class == QLineEdit:
             return obj.text()
@@ -24,16 +25,14 @@ class MyWindow(QMainWindow):
         except ValueError:
             return 0
 
-
     def maths(self):
-#____TDI______________________________________________________________        
+        # ____TDI______________________________________________________________
         fieldTDI = self.findChild(QLineEdit, 'TDI')
-        TDI = 0        
+        TDI = 0
         for i in range(0, 14):
             index_str = str(i + 1)
             TDI += self.getNumber('DI_' + index_str, QComboBox)
         fieldTDI.setText(str(TDI))
-
 
         for i in range(0, 20):
             complexity = '---'
@@ -63,7 +62,7 @@ class MyWindow(QMainWindow):
                     complexity = 'high'
                 elif (det >= 50) and (ret_ftr >= 6):
                     complexity = 'high'
-#______________________________________________________________________
+            # ______________________________________________________________________
             if self.getText('type_' + index_str, QComboBox) in ['EI']:
                 if (1 <= det and det <= 4) and (0 < ret_ftr and ret_ftr < 2):
                     complexity = 'low'
@@ -85,21 +84,21 @@ class MyWindow(QMainWindow):
                     complexity = 'high'
                 elif (det >= 16) and (ret_ftr >= 3):
                     complexity = 'high'
-#__________________________________________________________________________
+            # __________________________________________________________________________
             if self.getText('type_' + index_str, QComboBox) in ['EO', 'EQ']:
 
                 if (1 <= det and det <= 5) and (0 < ret_ftr and ret_ftr < 2):
                     complexity = 'low'
                 elif (6 <= det and det <= 19) and (0 < ret_ftr and ret_ftr < 2):
                     complexity = 'low'
-                elif (det >=20) and (0 < ret_ftr and ret_ftr < 2):
+                elif (det >= 20) and (0 < ret_ftr and ret_ftr < 2):
                     complexity = 'average'
 
                 if (1 <= det and det <= 5) and (2 <= ret_ftr and ret_ftr <= 3):
                     complexity = 'low'
                 elif (6 <= det and det <= 19) and (2 <= ret_ftr and ret_ftr <= 3):
                     complexity = 'average'
-                elif (det >=20) and (2 <= ret_ftr and ret_ftr <= 3):
+                elif (det >= 20) and (2 <= ret_ftr and ret_ftr <= 3):
                     complexity = 'high'
 
                 if (1 <= det and det <= 5) and (ret_ftr >= 4):
@@ -151,7 +150,7 @@ class MyWindow(QMainWindow):
                     FP = 6
             fieldFP.setText(str(FP))
 
-#____UFP______________________________________________________________        
+        # ____UFP______________________________________________________________
         fieldUFP = self.findChild(QLineEdit, 'UFP')
         UFP = 0
         for i in range(0, 20):
@@ -164,13 +163,12 @@ class MyWindow(QMainWindow):
                            self.getNumber('TDI'))
         fieldAFP.setText(format(AFP, '.3f'))
 
-
     def calcAPF(self, ufp, tdi):
         return ufp * ((tdi * 0.1) + 0.65)
 
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    appWindow = MyWindow()
+    appWindow = IfpugWindow()
     appWindow.show()
     sys.exit(app.exec())

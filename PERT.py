@@ -1,17 +1,16 @@
-import sys
 import math
+import sys
 
 from PyQt5.QtWidgets import QApplication, QLineEdit, QMainWindow
 from PyQt5.uic import loadUi
 
-
 number_of_estimates = 10
 
-class MyWindow(QMainWindow):
+
+class PertWindow(QMainWindow):
     def __init__(self):
-        super(MyWindow, self).__init__()
+        super(PertWindow, self).__init__()
         loadUi("PERT.ui", self)
-        # подключение клик-сигнал к слоту btnClicked
         self.pushButton.clicked.connect(self.copyEstimatesNames)
         self.pushButton_Math.clicked.connect(self.maths)
 
@@ -20,11 +19,9 @@ class MyWindow(QMainWindow):
             index = str(i + 1)
             value = self.getText('estimate_' + index)
             for target_index in range(1, 5):
-                target = self.findChild(QLineEdit, 'estimate' + str(target_index)  + '_'  + index)
+                target = self.findChild(QLineEdit, 'estimate' + str(target_index) + '_' + index)
                 target.setText(value)
                 target.adjustSize()
-
-
 
     def maths(self):
 
@@ -35,18 +32,18 @@ class MyWindow(QMainWindow):
 
         for i in range(0, number_of_estimates):
             index_str = str(i + 1)
-#____Ei______________________________________________________________
+            # ____Ei______________________________________________________________
             fieldEi = self.findChild(QLineEdit, 'E' + index_str)
             Ei = self.calcEi(self.getNumber('P' + index_str),
-                           self.getNumber('M' + index_str),
-                           self.getNumber('O' + index_str))
+                             self.getNumber('M' + index_str),
+                             self.getNumber('O' + index_str))
             fieldEi.setText(format(Ei, '.3f'))
-#____CKOi____________________________________________________________
-            fieldCKOi = self.findChild(QLineEdit, 'CKO' + index_str)            
+            # ____CKOi____________________________________________________________
+            fieldCKOi = self.findChild(QLineEdit, 'CKO' + index_str)
             CKOi = self.calcCKOi(self.getNumber('P' + index_str),
-                                 self.getNumber('O' +index_str))
+                                 self.getNumber('O' + index_str))
             fieldCKOi.setText(format(CKOi, '.3f'))
-#___E________________________________________________________________
+        # ___E________________________________________________________________
         fieldE = self.findChild(QLineEdit, 'E')
         E = 0
         for i in range(0, number_of_estimates):
@@ -54,7 +51,7 @@ class MyWindow(QMainWindow):
             E += self.calcE(self.getNumber('E' + index_str),
                             self.getNumber('K' + index_str))
         fieldE.setText(format(E, '.3f'))
-#___CKO______________________________________________________________
+        # ___CKO______________________________________________________________
         fieldCKO = self.findChild(QLineEdit, 'CKO')
         CKO = 0
         for i in range(0, number_of_estimates):
@@ -62,25 +59,24 @@ class MyWindow(QMainWindow):
             CKO += self.calcCKO(self.getNumber('K' + index_str),
                                 self.getNumber('CKO' + index_str))
         fieldCKO.setText(format(CKO, '.3f'))
-#___E95______________________________________________________________
+        # ___E95______________________________________________________________
         fieldE95 = self.findChild(QLineEdit, 'E95')
         E95 = self.calcE95(self.getNumber('E'),
                            self.getNumber('CKO'))
         fieldE95.setText(format(E95, '.3f'))
-#___wmonth___________________________________________________________
+        # ___wmonth___________________________________________________________
         fieldwmonth = self.findChild(QLineEdit, 'wmonth')
         wmonth = 165 * 0.8
         fieldwmonth.setText(format(wmonth))
-#___lintensity_______________________________________________________
+        # ___lintensity_______________________________________________________
         fieldlintensity = self.findChild(QLineEdit, 'lintensity')
         lintensity = self.cacllintensity(self.getNumber('E'),
                                          self.getNumber('wmonth'))
         fieldlintensity.setText(format(lintensity, '.3f'))
-#___T________________________________________________________________
+        # ___T________________________________________________________________
         fieldT = self.findChild(QLineEdit, 'T')
         T = self.calcT(self.getNumber('lintensity'))
         fieldT.setText(format(T, '.3f'))
-
 
     def getText(self, object_id):
         obj = self.findChild(QLineEdit, object_id)
@@ -93,7 +89,7 @@ class MyWindow(QMainWindow):
             return 0
 
     def calcEi(self, p, m, o):
-        return (p + 4*m + o) / 6
+        return (p + 4 * m + o) / 6
 
     def calcCKOi(self, p, o):
         return (p - o) / 6
@@ -102,7 +98,7 @@ class MyWindow(QMainWindow):
         return e * k
 
     def calcCKO(self, k, cko):
-        return math.sqrt(k * cko**2)
+        return math.sqrt(k * cko ** 2)
 
     def calcE95(self, e, cko):
         return e + 2 * cko
@@ -111,10 +107,11 @@ class MyWindow(QMainWindow):
         return e / wmonth
 
     def calcT(self, lintensity):
-        return 2.5 * pow(lintensity, 1/3)
+        return 2.5 * pow(lintensity, 1 / 3)
+
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    appWindow = MyWindow()
+    appWindow = PertWindow()
     appWindow.show()
     sys.exit(app.exec())
