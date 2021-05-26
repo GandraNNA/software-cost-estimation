@@ -168,6 +168,10 @@ class IfpugWindow(QMainWindow):
         NumberOfLines = self.calcNumOfLines(self.NumOfLines(), AFP)
         fieldNumberOfLines.setText(format(NumberOfLines, '.3f'))
 
+        fieldCostKSLOC = self.findChild(QLineEdit, 'CostKSLOC')
+        CostKSLOC = self.calcCostKSLOC(NumberOfLines, self.getNumber('Cost1KSLOC'))
+        fieldCostKSLOC.setText(format(CostKSLOC, '.2f'))
+
     def calcAPF(self, ufp, tdi):
         return ufp * ((tdi * 0.1) + 0.65)
 
@@ -212,6 +216,9 @@ class IfpugWindow(QMainWindow):
 
     def calcNumOfLines(self, afp, numberoflines):
         return afp * numberoflines
+
+    def calcCostKSLOC(self, numberoflines, cost1K):
+        return (numberoflines * 0.001) * cost1K
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)

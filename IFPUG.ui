@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1669</width>
-    <height>889</height>
+    <height>937</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -3353,7 +3353,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>1260</x>
-      <y>720</y>
+      <y>750</y>
       <width>351</width>
       <height>71</height>
      </rect>
@@ -3399,7 +3399,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>710</x>
-      <y>720</y>
+      <y>750</y>
       <width>534</width>
       <height>26</height>
      </rect>
@@ -3432,7 +3432,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>730</x>
-      <y>760</y>
+      <y>790</y>
       <width>513</width>
       <height>26</height>
      </rect>
@@ -3465,7 +3465,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>670</x>
-      <y>670</y>
+      <y>660</y>
       <width>731</width>
       <height>24</height>
      </rect>
@@ -3553,7 +3553,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>1420</x>
-      <y>670</y>
+      <y>660</y>
       <width>195</width>
       <height>24</height>
      </rect>
@@ -3573,6 +3573,66 @@ p, li { white-space: pre-wrap; }
        </property>
        <property name="text">
         <string>строк</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>700</y>
+      <width>878</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_24">
+     <item>
+      <widget class="QLabel" name="label_52">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>При стоимости 1К строк кода:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="Cost1KSLOC"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_53">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>, вся программа будет стоить:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="CostKSLOC"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_54">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>(у.е)</string>
        </property>
       </widget>
      </item>
