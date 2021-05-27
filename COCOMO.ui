@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>801</width>
-    <height>939</height>
+    <height>989</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -863,7 +863,11 @@ p, li { white-space: pre-wrap; }
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout_6">
        <item>
-        <widget class="QLineEdit" name="TM"/>
+        <widget class="QLineEdit" name="TM">
+         <property name="text">
+          <string>---------------------------------------------------------</string>
+         </property>
+        </widget>
        </item>
        <item>
         <widget class="QLabel" name="label_25">
@@ -930,7 +934,7 @@ p, li { white-space: pre-wrap; }
        <item>
         <widget class="QLineEdit" name="PM">
          <property name="text">
-          <string/>
+          <string>--------------------------------------------------------</string>
          </property>
         </widget>
        </item>
@@ -979,7 +983,7 @@ p, li { white-space: pre-wrap; }
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>30</x>
@@ -1008,9 +1012,32 @@ p, li { white-space: pre-wrap; }
          <pointsize>14</pointsize>
         </font>
        </property>
+       <property name="text">
+        <string>--------------------------------------------------------------------</string>
+       </property>
       </widget>
      </item>
     </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Save">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>890</y>
+      <width>371</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Сохранить результаты</string>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">

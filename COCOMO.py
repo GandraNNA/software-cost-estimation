@@ -213,6 +213,7 @@ class CocomoWindow(QMainWindow):
         super(CocomoWindow, self).__init__()
         loadUi("COCOMO.ui", self)
         self.pushButton.clicked.connect(self.maths)
+        self.pushButton_Save.clicked.connect(self.saveTxt)
 
     def getText(self, object_name, object_class=QLineEdit):
         obj = self.findChild(object_class, object_name)
@@ -352,6 +353,14 @@ class CocomoWindow(QMainWindow):
                         sumSF += value
         return sumSF
 
+    def saveTxt(self):
+        name = self.getText('Name_project_1')
+        pm = self.getNumber('PM')
+        tm = self.getNumber('TM')
+        with open(name + '_COCOMO_II.txt', 'w') as f:
+            print('Метод COCOMO II.', file=f)
+            print('Предварительная оценка трудоёмкости: ' + str(pm), file=f)
+            print('Длительность проекта: ' + str(tm), file=f)
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)

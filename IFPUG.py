@@ -9,6 +9,7 @@ class IfpugWindow(QMainWindow):
         super(IfpugWindow, self).__init__()
         loadUi("IFPUG.ui", self)
         self.pushButton.clicked.connect(self.maths)
+        self.pushButton_Save.clicked.connect(self.saveTxt)
 
     def getText(self, object_name, object_class=QLineEdit):
         # print(object_name)
@@ -219,6 +220,20 @@ class IfpugWindow(QMainWindow):
 
     def calcCostKSLOC(self, numberoflines, cost1K):
         return (numberoflines * 0.001) * cost1K
+
+    def saveTxt(self):
+        name = self.getText('Name_project')
+        ufp = self.getNumber('UFP')
+        afp = self.getNumber('AFP')
+        numLines = self.getNumber('NumberOfLines')
+        cost = self.getNumber('CostKSLOC')
+        with open(name + '_IFPUG.txt', 'w') as f:
+            print('Метод функциональных точек.', file=f)
+            print('Невыровненные функциональные точки: ' + str(ufp), file=f)
+            print('Выровненные функциональные точки: ' + str(afp), file=f)
+            print('Количество строк кода в проекте: ' + str(numLines), file=f)
+            print('Стоимость проекта: ' + str(cost), file=f)
+
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)

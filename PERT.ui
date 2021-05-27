@@ -330,6 +330,9 @@
        </item>
        <item>
         <widget class="QLineEdit" name="estimate3_2">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
          <property name="readOnly">
           <bool>true</bool>
          </property>
@@ -337,6 +340,9 @@
        </item>
        <item>
         <widget class="QLineEdit" name="estimate3_3">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
          <property name="readOnly">
           <bool>true</bool>
          </property>
@@ -344,6 +350,9 @@
        </item>
        <item>
         <widget class="QLineEdit" name="estimate3_4">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
          <property name="readOnly">
           <bool>true</bool>
          </property>
@@ -351,6 +360,9 @@
        </item>
        <item>
         <widget class="QLineEdit" name="estimate3_5">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
          <property name="readOnly">
           <bool>true</bool>
          </property>
@@ -358,6 +370,9 @@
        </item>
        <item>
         <widget class="QLineEdit" name="estimate3_6">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
          <property name="readOnly">
           <bool>true</bool>
          </property>
@@ -365,6 +380,9 @@
        </item>
        <item>
         <widget class="QLineEdit" name="estimate3_7">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
          <property name="readOnly">
           <bool>true</bool>
          </property>
@@ -372,6 +390,9 @@
        </item>
        <item>
         <widget class="QLineEdit" name="estimate3_8">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
          <property name="readOnly">
           <bool>true</bool>
          </property>
@@ -379,6 +400,9 @@
        </item>
        <item>
         <widget class="QLineEdit" name="estimate3_9">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
          <property name="readOnly">
           <bool>true</bool>
          </property>
@@ -386,6 +410,9 @@
        </item>
        <item>
         <widget class="QLineEdit" name="estimate3_10">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
          <property name="readOnly">
           <bool>true</bool>
          </property>
@@ -520,34 +547,74 @@
      <item>
       <layout class="QVBoxLayout" name="verticalLayout_17">
        <item>
-        <widget class="QLineEdit" name="E1"/>
+        <widget class="QLineEdit" name="E1">
+         <property name="text">
+          <string>-------------------------------</string>
+         </property>
+        </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="E2"/>
+        <widget class="QLineEdit" name="E2">
+         <property name="text">
+          <string>-------------------------------------</string>
+         </property>
+        </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="E3"/>
+        <widget class="QLineEdit" name="E3">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
+        </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="E4"/>
+        <widget class="QLineEdit" name="E4">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
+        </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="E5"/>
+        <widget class="QLineEdit" name="E5">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
+        </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="E6"/>
+        <widget class="QLineEdit" name="E6">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
+        </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="E7"/>
+        <widget class="QLineEdit" name="E7">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
+        </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="E8"/>
+        <widget class="QLineEdit" name="E8">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
+        </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="E9"/>
+        <widget class="QLineEdit" name="E9">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
+        </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="E10"/>
+        <widget class="QLineEdit" name="E10">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -703,6 +770,9 @@
        </item>
        <item>
         <widget class="QLineEdit" name="estimate4_2">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
          <property name="readOnly">
           <bool>true</bool>
          </property>
@@ -710,6 +780,9 @@
        </item>
        <item>
         <widget class="QLineEdit" name="estimate4_3">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
          <property name="readOnly">
           <bool>true</bool>
          </property>
@@ -717,6 +790,9 @@
        </item>
        <item>
         <widget class="QLineEdit" name="estimate4_4">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
          <property name="readOnly">
           <bool>true</bool>
          </property>
@@ -724,6 +800,9 @@
        </item>
        <item>
         <widget class="QLineEdit" name="estimate4_5">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
          <property name="readOnly">
           <bool>true</bool>
          </property>
@@ -731,6 +810,9 @@
        </item>
        <item>
         <widget class="QLineEdit" name="estimate4_6">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
          <property name="readOnly">
           <bool>true</bool>
          </property>
@@ -738,6 +820,9 @@
        </item>
        <item>
         <widget class="QLineEdit" name="estimate4_7">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
          <property name="readOnly">
           <bool>true</bool>
          </property>
@@ -745,6 +830,9 @@
        </item>
        <item>
         <widget class="QLineEdit" name="estimate4_8">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
          <property name="readOnly">
           <bool>true</bool>
          </property>
@@ -752,6 +840,9 @@
        </item>
        <item>
         <widget class="QLineEdit" name="estimate4_9">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
          <property name="readOnly">
           <bool>true</bool>
          </property>
@@ -759,6 +850,9 @@
        </item>
        <item>
         <widget class="QLineEdit" name="estimate4_10">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
          <property name="readOnly">
           <bool>true</bool>
          </property>
@@ -893,34 +987,74 @@
      <item>
       <layout class="QVBoxLayout" name="verticalLayout_21">
        <item>
-        <widget class="QLineEdit" name="CKO1"/>
+        <widget class="QLineEdit" name="CKO1">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
+        </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="CKO2"/>
+        <widget class="QLineEdit" name="CKO2">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
+        </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="CKO3"/>
+        <widget class="QLineEdit" name="CKO3">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
+        </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="CKO4"/>
+        <widget class="QLineEdit" name="CKO4">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
+        </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="CKO5"/>
+        <widget class="QLineEdit" name="CKO5">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
+        </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="CKO6"/>
+        <widget class="QLineEdit" name="CKO6">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
+        </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="CKO7"/>
+        <widget class="QLineEdit" name="CKO7">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
+        </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="CKO8"/>
+        <widget class="QLineEdit" name="CKO8">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
+        </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="CKO9"/>
+        <widget class="QLineEdit" name="CKO9">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
+        </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="CKO10"/>
+        <widget class="QLineEdit" name="CKO10">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -953,7 +1087,7 @@
        <item>
         <widget class="QLineEdit" name="wmonth">
          <property name="text">
-          <string/>
+          <string>---------------------------</string>
          </property>
         </widget>
        </item>
@@ -986,7 +1120,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="lintensity"/>
+        <widget class="QLineEdit" name="lintensity">
+         <property name="text">
+          <string>---------------------------------------------</string>
+         </property>
+        </widget>
        </item>
        <item>
         <widget class="QLabel" name="label_132">
@@ -1017,7 +1155,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="T"/>
+        <widget class="QLineEdit" name="T">
+         <property name="text">
+          <string>-------------------------------------</string>
+         </property>
+        </widget>
        </item>
        <item>
         <widget class="QLabel" name="label_134">
@@ -1108,7 +1250,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="E"/>
+        <widget class="QLineEdit" name="E">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -1151,7 +1297,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="CKO"/>
+        <widget class="QLineEdit" name="CKO">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -1194,7 +1344,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="E95"/>
+        <widget class="QLineEdit" name="E95">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -1242,6 +1396,9 @@
      <font>
       <pointsize>14</pointsize>
      </font>
+    </property>
+    <property name="text">
+     <string>-----------------------------------------------------------------------------------------</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_16">
@@ -1676,7 +1833,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>151</x>
@@ -1688,6 +1845,9 @@
     <layout class="QVBoxLayout" name="verticalLayout_2">
      <item>
       <widget class="QLineEdit" name="estimate1_2">
+       <property name="text">
+        <string>---------------------------</string>
+       </property>
        <property name="readOnly">
         <bool>true</bool>
        </property>
@@ -1695,6 +1855,9 @@
      </item>
      <item>
       <widget class="QLineEdit" name="estimate1_3">
+       <property name="text">
+        <string>---------------------------</string>
+       </property>
        <property name="readOnly">
         <bool>true</bool>
        </property>
@@ -1702,6 +1865,9 @@
      </item>
      <item>
       <widget class="QLineEdit" name="estimate1_4">
+       <property name="text">
+        <string>---------------------------</string>
+       </property>
        <property name="readOnly">
         <bool>true</bool>
        </property>
@@ -1709,6 +1875,9 @@
      </item>
      <item>
       <widget class="QLineEdit" name="estimate1_5">
+       <property name="text">
+        <string>---------------------------</string>
+       </property>
        <property name="readOnly">
         <bool>true</bool>
        </property>
@@ -1716,6 +1885,9 @@
      </item>
      <item>
       <widget class="QLineEdit" name="estimate1_6">
+       <property name="text">
+        <string>---------------------------</string>
+       </property>
        <property name="readOnly">
         <bool>true</bool>
        </property>
@@ -1723,6 +1895,9 @@
      </item>
      <item>
       <widget class="QLineEdit" name="estimate1_7">
+       <property name="text">
+        <string>---------------------------</string>
+       </property>
        <property name="readOnly">
         <bool>true</bool>
        </property>
@@ -1730,6 +1905,9 @@
      </item>
      <item>
       <widget class="QLineEdit" name="estimate1_8">
+       <property name="text">
+        <string>---------------------------</string>
+       </property>
        <property name="readOnly">
         <bool>true</bool>
        </property>
@@ -1737,6 +1915,9 @@
      </item>
      <item>
       <widget class="QLineEdit" name="estimate1_9">
+       <property name="text">
+        <string>---------------------------</string>
+       </property>
        <property name="readOnly">
         <bool>true</bool>
        </property>
@@ -1744,6 +1925,9 @@
      </item>
      <item>
       <widget class="QLineEdit" name="estimate1_10">
+       <property name="text">
+        <string>---------------------------</string>
+       </property>
        <property name="readOnly">
         <bool>true</bool>
        </property>
@@ -1751,12 +1935,12 @@
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>293</x>
       <y>280</y>
-      <width>541</width>
+      <width>542</width>
       <height>248</height>
      </rect>
     </property>
@@ -2601,6 +2785,9 @@
       <height>22</height>
      </rect>
     </property>
+    <property name="text">
+     <string>---------------------------</string>
+    </property>
     <property name="readOnly">
      <bool>true</bool>
     </property>
@@ -2613,6 +2800,9 @@
       <width>137</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="text">
+     <string>---------------------------</string>
     </property>
     <property name="readOnly">
      <bool>true</bool>
@@ -2627,6 +2817,9 @@
       <height>22</height>
      </rect>
     </property>
+    <property name="text">
+     <string>---------------------------</string>
+    </property>
     <property name="readOnly">
      <bool>true</bool>
     </property>
@@ -2639,6 +2832,9 @@
       <width>137</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="text">
+     <string>---------------------------</string>
     </property>
     <property name="readOnly">
      <bool>true</bool>
@@ -2653,6 +2849,9 @@
       <height>22</height>
      </rect>
     </property>
+    <property name="text">
+     <string>---------------------------</string>
+    </property>
     <property name="readOnly">
      <bool>true</bool>
     </property>
@@ -2665,6 +2864,9 @@
       <width>137</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="text">
+     <string>---------------------------</string>
     </property>
     <property name="readOnly">
      <bool>true</bool>
@@ -2679,6 +2881,9 @@
       <height>22</height>
      </rect>
     </property>
+    <property name="text">
+     <string>---------------------------</string>
+    </property>
     <property name="readOnly">
      <bool>true</bool>
     </property>
@@ -2692,6 +2897,9 @@
       <height>22</height>
      </rect>
     </property>
+    <property name="text">
+     <string>---------------------------</string>
+    </property>
     <property name="readOnly">
      <bool>true</bool>
     </property>
@@ -2704,6 +2912,9 @@
       <width>137</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="text">
+     <string>---------------------------</string>
     </property>
     <property name="readOnly">
      <bool>true</bool>
@@ -2763,7 +2974,7 @@
      <string>?</string>
     </property>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>219</x>
@@ -2802,7 +3013,7 @@
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>11</x>
@@ -2882,6 +3093,26 @@
       </widget>
      </item>
     </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Save">
+    <property name="geometry">
+     <rect>
+      <x>1510</x>
+      <y>790</y>
+      <width>251</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Сохранить</string>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">

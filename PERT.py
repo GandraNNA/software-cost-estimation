@@ -1,5 +1,6 @@
 import math
 import sys
+import json
 
 from PyQt5.QtWidgets import QApplication, QLineEdit, QMainWindow
 from PyQt5.uic import loadUi
@@ -13,6 +14,7 @@ class PertWindow(QMainWindow):
         loadUi("PERT.ui", self)
         self.pushButton.clicked.connect(self.copyEstimatesNames)
         self.pushButton_Math.clicked.connect(self.maths)
+        self.pushButton_Save.clicked.connect(self.saveTxt)
 
     def copyEstimatesNames(self):
         for i in range(1, number_of_estimates):
@@ -24,7 +26,6 @@ class PertWindow(QMainWindow):
                 target.adjustSize()
 
     def maths(self):
-
         value = self.getText('Name_project')
         target = self.findChild(QLineEdit, 'Name_project_1')
         target.setText(value)
@@ -109,6 +110,16 @@ class PertWindow(QMainWindow):
     def calcT(self, lintensity):
         return 2.5 * pow(lintensity, 1 / 3)
 
+    def saveTxt(self):
+        wmonth = self.getNumber('wmonth')
+        name = self.getText('Name_project_1')
+        lintensity = self.getNumber('lintensity')
+        t = self.getNumber('T')
+        with open(name + '_PERT.txt', 'w') as f:
+            print('Метод PERT.', file=f)
+            print('Сотрудник в месяц будет работать по проекту: ' + str(wmonth), file=f)
+            print('Суммарная трудоёмкость проекта: ' + str(lintensity), file=f)
+            print('Оптимальная продолжительность проекта: ' + str(t), file=f)
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)

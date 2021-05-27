@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1669</width>
-    <height>937</height>
+    <width>1642</width>
+    <height>936</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -1505,6 +1505,9 @@ p, li { white-space: pre-wrap; }
       <height>22</height>
      </rect>
     </property>
+    <property name="text">
+     <string>---------------------</string>
+    </property>
    </widget>
    <widget class="QLineEdit" name="complexity_2">
     <property name="geometry">
@@ -1514,6 +1517,9 @@ p, li { white-space: pre-wrap; }
       <width>109</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="text">
+     <string>---------------------</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="complexity_3">
@@ -1525,6 +1531,9 @@ p, li { white-space: pre-wrap; }
       <height>22</height>
      </rect>
     </property>
+    <property name="text">
+     <string>---------------------</string>
+    </property>
    </widget>
    <widget class="QLineEdit" name="complexity_4">
     <property name="geometry">
@@ -1534,6 +1543,9 @@ p, li { white-space: pre-wrap; }
       <width>109</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="text">
+     <string>---------------------</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="complexity_5">
@@ -1545,6 +1557,9 @@ p, li { white-space: pre-wrap; }
       <height>22</height>
      </rect>
     </property>
+    <property name="text">
+     <string>---------------------</string>
+    </property>
    </widget>
    <widget class="QLineEdit" name="complexity_6">
     <property name="geometry">
@@ -1554,6 +1569,9 @@ p, li { white-space: pre-wrap; }
       <width>109</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="text">
+     <string>---------------------</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="complexity_7">
@@ -1565,6 +1583,9 @@ p, li { white-space: pre-wrap; }
       <height>22</height>
      </rect>
     </property>
+    <property name="text">
+     <string>---------------------</string>
+    </property>
    </widget>
    <widget class="QLineEdit" name="complexity_8">
     <property name="geometry">
@@ -1574,6 +1595,9 @@ p, li { white-space: pre-wrap; }
       <width>109</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="text">
+     <string>---------------------</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="complexity_9">
@@ -1585,6 +1609,9 @@ p, li { white-space: pre-wrap; }
       <height>22</height>
      </rect>
     </property>
+    <property name="text">
+     <string>---------------------</string>
+    </property>
    </widget>
    <widget class="QLineEdit" name="complexity_10">
     <property name="geometry">
@@ -1594,6 +1621,9 @@ p, li { white-space: pre-wrap; }
       <width>109</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="text">
+     <string>---------------------</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="complexity_11">
@@ -1605,6 +1635,9 @@ p, li { white-space: pre-wrap; }
       <height>22</height>
      </rect>
     </property>
+    <property name="text">
+     <string>---------------------</string>
+    </property>
    </widget>
    <widget class="QLineEdit" name="complexity_12">
     <property name="geometry">
@@ -1614,6 +1647,9 @@ p, li { white-space: pre-wrap; }
       <width>109</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="text">
+     <string>---------------------</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="complexity_13">
@@ -1625,6 +1661,9 @@ p, li { white-space: pre-wrap; }
       <height>22</height>
      </rect>
     </property>
+    <property name="text">
+     <string>---------------------</string>
+    </property>
    </widget>
    <widget class="QLineEdit" name="complexity_14">
     <property name="geometry">
@@ -1634,6 +1673,9 @@ p, li { white-space: pre-wrap; }
       <width>109</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="text">
+     <string>---------------------</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="complexity_15">
@@ -1645,6 +1687,9 @@ p, li { white-space: pre-wrap; }
       <height>22</height>
      </rect>
     </property>
+    <property name="text">
+     <string>---------------------</string>
+    </property>
    </widget>
    <widget class="QLineEdit" name="complexity_16">
     <property name="geometry">
@@ -1654,6 +1699,9 @@ p, li { white-space: pre-wrap; }
       <width>109</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="text">
+     <string>---------------------</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="complexity_17">
@@ -1665,6 +1713,9 @@ p, li { white-space: pre-wrap; }
       <height>22</height>
      </rect>
     </property>
+    <property name="text">
+     <string>---------------------</string>
+    </property>
    </widget>
    <widget class="QLineEdit" name="complexity_18">
     <property name="geometry">
@@ -1674,6 +1725,9 @@ p, li { white-space: pre-wrap; }
       <width>109</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="text">
+     <string>---------------------</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="complexity_19">
@@ -1685,6 +1739,9 @@ p, li { white-space: pre-wrap; }
       <height>22</height>
      </rect>
     </property>
+    <property name="text">
+     <string>---------------------</string>
+    </property>
    </widget>
    <widget class="QLineEdit" name="complexity_20">
     <property name="geometry">
@@ -1694,6 +1751,9 @@ p, li { white-space: pre-wrap; }
       <width>109</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="text">
+     <string>---------------------</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_44">
@@ -1725,6 +1785,9 @@ p, li { white-space: pre-wrap; }
       <height>22</height>
      </rect>
     </property>
+    <property name="text">
+     <string>---------------------</string>
+    </property>
    </widget>
    <widget class="QLineEdit" name="FP_2">
     <property name="geometry">
@@ -1734,6 +1797,9 @@ p, li { white-space: pre-wrap; }
       <width>60</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="text">
+     <string>---------------------</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="FP_3">
@@ -1745,6 +1811,9 @@ p, li { white-space: pre-wrap; }
       <height>22</height>
      </rect>
     </property>
+    <property name="text">
+     <string>---------------------</string>
+    </property>
    </widget>
    <widget class="QLineEdit" name="FP_4">
     <property name="geometry">
@@ -1754,6 +1823,9 @@ p, li { white-space: pre-wrap; }
       <width>60</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="text">
+     <string>---------------------</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="FP_5">
@@ -1765,6 +1837,9 @@ p, li { white-space: pre-wrap; }
       <height>22</height>
      </rect>
     </property>
+    <property name="text">
+     <string>---------------------</string>
+    </property>
    </widget>
    <widget class="QLineEdit" name="FP_6">
     <property name="geometry">
@@ -1774,6 +1849,9 @@ p, li { white-space: pre-wrap; }
       <width>60</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="text">
+     <string>---------------------</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="FP_7">
@@ -1785,6 +1863,9 @@ p, li { white-space: pre-wrap; }
       <height>22</height>
      </rect>
     </property>
+    <property name="text">
+     <string>---------------------</string>
+    </property>
    </widget>
    <widget class="QLineEdit" name="FP_8">
     <property name="geometry">
@@ -1794,6 +1875,9 @@ p, li { white-space: pre-wrap; }
       <width>60</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="text">
+     <string>---------------------</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="FP_9">
@@ -1805,6 +1889,9 @@ p, li { white-space: pre-wrap; }
       <height>22</height>
      </rect>
     </property>
+    <property name="text">
+     <string>---------------------</string>
+    </property>
    </widget>
    <widget class="QLineEdit" name="FP_10">
     <property name="geometry">
@@ -1814,6 +1901,9 @@ p, li { white-space: pre-wrap; }
       <width>60</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="text">
+     <string>---------------------</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="FP_11">
@@ -1825,6 +1915,9 @@ p, li { white-space: pre-wrap; }
       <height>22</height>
      </rect>
     </property>
+    <property name="text">
+     <string>---------------------</string>
+    </property>
    </widget>
    <widget class="QLineEdit" name="FP_12">
     <property name="geometry">
@@ -1834,6 +1927,9 @@ p, li { white-space: pre-wrap; }
       <width>60</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="text">
+     <string>---------------------</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="FP_13">
@@ -1845,6 +1941,9 @@ p, li { white-space: pre-wrap; }
       <height>22</height>
      </rect>
     </property>
+    <property name="text">
+     <string>---------------------</string>
+    </property>
    </widget>
    <widget class="QLineEdit" name="FP_14">
     <property name="geometry">
@@ -1854,6 +1953,9 @@ p, li { white-space: pre-wrap; }
       <width>60</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="text">
+     <string>---------------------</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="FP_15">
@@ -1865,6 +1967,9 @@ p, li { white-space: pre-wrap; }
       <height>22</height>
      </rect>
     </property>
+    <property name="text">
+     <string>---------------------</string>
+    </property>
    </widget>
    <widget class="QLineEdit" name="FP_16">
     <property name="geometry">
@@ -1874,6 +1979,9 @@ p, li { white-space: pre-wrap; }
       <width>60</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="text">
+     <string>---------------------</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="FP_17">
@@ -1885,6 +1993,9 @@ p, li { white-space: pre-wrap; }
       <height>22</height>
      </rect>
     </property>
+    <property name="text">
+     <string>---------------------</string>
+    </property>
    </widget>
    <widget class="QLineEdit" name="FP_18">
     <property name="geometry">
@@ -1894,6 +2005,9 @@ p, li { white-space: pre-wrap; }
       <width>60</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="text">
+     <string>---------------------</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="FP_19">
@@ -1905,6 +2019,9 @@ p, li { white-space: pre-wrap; }
       <height>22</height>
      </rect>
     </property>
+    <property name="text">
+     <string>---------------------</string>
+    </property>
    </widget>
    <widget class="QLineEdit" name="FP_20">
     <property name="geometry">
@@ -1915,13 +2032,16 @@ p, li { white-space: pre-wrap; }
       <height>22</height>
      </rect>
     </property>
+    <property name="text">
+     <string>---------------------</string>
+    </property>
    </widget>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>1330</x>
+      <x>1320</x>
       <y>600</y>
-      <width>281</width>
+      <width>291</width>
       <height>51</height>
      </rect>
     </property>
@@ -1939,10 +2059,10 @@ p, li { white-space: pre-wrap; }
    <widget class="QTextBrowser" name="textBrowser_2">
     <property name="geometry">
      <rect>
-      <x>420</x>
+      <x>380</x>
       <y>470</y>
       <width>391</width>
-      <height>181</height>
+      <height>201</height>
      </rect>
     </property>
     <property name="html">
@@ -1955,6 +2075,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic; color:#00007f;&quot;&gt;RET:  Логическая группа данных&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic; color:#00007f;&quot;&gt;FTR:   Количество различных файлов&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic; color:#00007f;&quot;&gt;ILF:    Файлы внутреннего интерфейса&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic; color:#00007f;&quot;&gt;EIF:    Файлы внешнего интерфейса&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic; color:#00007f;&quot;&gt;EI:     Внешние входные транзакции&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic; color:#00007f;&quot;&gt;EO:    Внешние выходные транзакции&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic; color:#00007f;&quot;&gt;EQ:    Внешние запросы&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -3059,6 +3180,9 @@ p, li { white-space: pre-wrap; }
            <pointsize>8</pointsize>
           </font>
          </property>
+         <property name="text">
+          <string/>
+         </property>
         </widget>
        </item>
        <item>
@@ -3067,6 +3191,9 @@ p, li { white-space: pre-wrap; }
           <font>
            <pointsize>8</pointsize>
           </font>
+         </property>
+         <property name="text">
+          <string/>
          </property>
         </widget>
        </item>
@@ -3077,6 +3204,9 @@ p, li { white-space: pre-wrap; }
            <pointsize>8</pointsize>
           </font>
          </property>
+         <property name="text">
+          <string/>
+         </property>
         </widget>
        </item>
        <item>
@@ -3085,6 +3215,9 @@ p, li { white-space: pre-wrap; }
           <font>
            <pointsize>8</pointsize>
           </font>
+         </property>
+         <property name="text">
+          <string/>
          </property>
         </widget>
        </item>
@@ -3095,6 +3228,9 @@ p, li { white-space: pre-wrap; }
            <pointsize>8</pointsize>
           </font>
          </property>
+         <property name="text">
+          <string/>
+         </property>
         </widget>
        </item>
        <item>
@@ -3103,6 +3239,9 @@ p, li { white-space: pre-wrap; }
           <font>
            <pointsize>8</pointsize>
           </font>
+         </property>
+         <property name="text">
+          <string/>
          </property>
         </widget>
        </item>
@@ -3113,6 +3252,9 @@ p, li { white-space: pre-wrap; }
            <pointsize>8</pointsize>
           </font>
          </property>
+         <property name="text">
+          <string/>
+         </property>
         </widget>
        </item>
        <item>
@@ -3121,6 +3263,9 @@ p, li { white-space: pre-wrap; }
           <font>
            <pointsize>8</pointsize>
           </font>
+         </property>
+         <property name="text">
+          <string/>
          </property>
         </widget>
        </item>
@@ -3131,6 +3276,9 @@ p, li { white-space: pre-wrap; }
            <pointsize>8</pointsize>
           </font>
          </property>
+         <property name="text">
+          <string/>
+         </property>
         </widget>
        </item>
        <item>
@@ -3139,6 +3287,9 @@ p, li { white-space: pre-wrap; }
           <font>
            <pointsize>8</pointsize>
           </font>
+         </property>
+         <property name="text">
+          <string/>
          </property>
         </widget>
        </item>
@@ -3149,6 +3300,9 @@ p, li { white-space: pre-wrap; }
            <pointsize>8</pointsize>
           </font>
          </property>
+         <property name="text">
+          <string/>
+         </property>
         </widget>
        </item>
        <item>
@@ -3157,6 +3311,9 @@ p, li { white-space: pre-wrap; }
           <font>
            <pointsize>8</pointsize>
           </font>
+         </property>
+         <property name="text">
+          <string/>
          </property>
         </widget>
        </item>
@@ -3167,6 +3324,9 @@ p, li { white-space: pre-wrap; }
            <pointsize>8</pointsize>
           </font>
          </property>
+         <property name="text">
+          <string/>
+         </property>
         </widget>
        </item>
        <item>
@@ -3175,6 +3335,9 @@ p, li { white-space: pre-wrap; }
           <font>
            <pointsize>8</pointsize>
           </font>
+         </property>
+         <property name="text">
+          <string/>
          </property>
         </widget>
        </item>
@@ -3185,6 +3348,9 @@ p, li { white-space: pre-wrap; }
            <pointsize>8</pointsize>
           </font>
          </property>
+         <property name="text">
+          <string/>
+         </property>
         </widget>
        </item>
        <item>
@@ -3193,6 +3359,9 @@ p, li { white-space: pre-wrap; }
           <font>
            <pointsize>8</pointsize>
           </font>
+         </property>
+         <property name="text">
+          <string/>
          </property>
         </widget>
        </item>
@@ -3203,6 +3372,9 @@ p, li { white-space: pre-wrap; }
            <pointsize>8</pointsize>
           </font>
          </property>
+         <property name="text">
+          <string/>
+         </property>
         </widget>
        </item>
        <item>
@@ -3211,6 +3383,9 @@ p, li { white-space: pre-wrap; }
           <font>
            <pointsize>8</pointsize>
           </font>
+         </property>
+         <property name="text">
+          <string/>
          </property>
         </widget>
        </item>
@@ -3221,6 +3396,9 @@ p, li { white-space: pre-wrap; }
            <pointsize>8</pointsize>
           </font>
          </property>
+         <property name="text">
+          <string/>
+         </property>
         </widget>
        </item>
        <item>
@@ -3229,6 +3407,9 @@ p, li { white-space: pre-wrap; }
           <font>
            <pointsize>8</pointsize>
           </font>
+         </property>
+         <property name="text">
+          <string/>
          </property>
         </widget>
        </item>
@@ -3345,7 +3526,11 @@ p, li { white-space: pre-wrap; }
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="TDI"/>
+      <widget class="QLineEdit" name="TDI">
+       <property name="text">
+        <string>---------------------------</string>
+       </property>
+      </widget>
      </item>
     </layout>
    </widget>
@@ -3391,7 +3576,11 @@ p, li { white-space: pre-wrap; }
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="Name_project"/>
+      <widget class="QLineEdit" name="Name_project">
+       <property name="text">
+        <string>Заполните поле</string>
+       </property>
+      </widget>
      </item>
     </layout>
    </widget>
@@ -3422,7 +3611,11 @@ p, li { white-space: pre-wrap; }
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout_17">
        <item>
-        <widget class="QLineEdit" name="UFP"/>
+        <widget class="QLineEdit" name="UFP">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -3455,18 +3648,110 @@ p, li { white-space: pre-wrap; }
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout_16">
        <item>
-        <widget class="QLineEdit" name="AFP"/>
+        <widget class="QLineEdit" name="AFP">
+         <property name="text">
+          <string>---------------------------</string>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
     </layout>
    </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>710</y>
+      <width>878</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_24">
+     <item>
+      <widget class="QLabel" name="label_52">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>При стоимости 1К строк кода:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="Cost1KSLOC">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_53">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>, вся программа будет стоить:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="CostKSLOC">
+       <property name="text">
+        <string>---------------------------</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_54">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>(у.е)</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Save">
+    <property name="geometry">
+     <rect>
+      <x>1320</x>
+      <y>830</y>
+      <width>291</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Сохранить результаты</string>
+    </property>
+   </widget>
    <widget class="QWidget" name="">
     <property name="geometry">
      <rect>
-      <x>670</x>
-      <y>660</y>
-      <width>731</width>
+      <x>690</x>
+      <y>670</y>
+      <width>921</width>
       <height>24</height>
      </rect>
     </property>
@@ -3547,20 +3832,12 @@ p, li { white-space: pre-wrap; }
        </item>
       </widget>
      </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="">
-    <property name="geometry">
-     <rect>
-      <x>1420</x>
-      <y>660</y>
-      <width>195</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <layout class="QHBoxLayout" name="horizontalLayout_23">
      <item>
-      <widget class="QLineEdit" name="NumberOfLines"/>
+      <widget class="QLineEdit" name="NumberOfLines">
+       <property name="text">
+        <string>--------------------------</string>
+       </property>
+      </widget>
      </item>
      <item>
       <widget class="QLabel" name="label_51">
@@ -3578,73 +3855,13 @@ p, li { white-space: pre-wrap; }
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="">
-    <property name="geometry">
-     <rect>
-      <x>740</x>
-      <y>700</y>
-      <width>878</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <layout class="QHBoxLayout" name="horizontalLayout_24">
-     <item>
-      <widget class="QLabel" name="label_52">
-       <property name="font">
-        <font>
-         <pointsize>10</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="text">
-        <string>При стоимости 1К строк кода:</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLineEdit" name="Cost1KSLOC"/>
-     </item>
-     <item>
-      <widget class="QLabel" name="label_53">
-       <property name="font">
-        <font>
-         <pointsize>10</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="text">
-        <string>, вся программа будет стоить:</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLineEdit" name="CostKSLOC"/>
-     </item>
-     <item>
-      <widget class="QLabel" name="label_54">
-       <property name="font">
-        <font>
-         <pointsize>10</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="text">
-        <string>(у.е)</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1669</width>
+     <width>1642</width>
      <height>26</height>
     </rect>
    </property>
