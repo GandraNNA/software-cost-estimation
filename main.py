@@ -4,9 +4,9 @@ import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from PyQt5.uic import loadUi
 
-from COCOMO import CocomoWindow
-from IFPUG import IfpugWindow
-from PERT import PertWindow
+from methods.COCOMO import CocomoWindow
+from methods.IFPUG import IfpugWindow
+from methods.PERT import PertWindow
 
 
 class ChildWindowType(Enum):
@@ -22,7 +22,7 @@ child_window = None
 class MainWindow(QMainWindow):
     def __init__(self):
         super(MainWindow, self).__init__()
-        loadUi("main.ui", self)
+        loadUi("methods/main.ui", self)
         self.COCOMO_button.clicked.connect(self.openCocomoWindow)
         self.IFPUG_button.clicked.connect(self.openIfpugWindow)
         self.PERT_button.clicked.connect(self.openPertWindow)
